@@ -1,0 +1,27 @@
+{
+  "name": "proxy-doris",
+  "version": "1.0.0",
+  "description": "Doris' proxy server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baebay/proxy-doris.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baebay/proxy-doris/issues"
+  },
+  "homepage": "https://github.com/baebay/proxy-doris#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
